@@ -48,6 +48,8 @@ body {
   transition: transform 1s ease-in-out;
   z-index: 2;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch; /* hace el scroll más fluido en iOS */
+  touch-action: auto; /* asegura que el scroll táctil funcione */
 }
 
 /* Ocultar contenido de la carta inicialmente */
