@@ -138,3 +138,20 @@ body {
     opacity: 0;
   }
 }
+
+.mensaje-amor {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #e91e63;
+  opacity: 0;
+  transition: opacity 1s ease;
+  z-index: 10;
+}
+
+.envelope.open + .mensaje-amor {
+  opacity: 1;
+}
