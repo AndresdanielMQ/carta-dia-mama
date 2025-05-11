@@ -57,7 +57,7 @@ body {
 
 /* Ocultar contenido de la carta inicialmente */
 .letter-content {
-  font-size: 22px;
+  font-size: 19px;
   opacity: 0;
   transition: opacity 1s ease-in-out;
 }
