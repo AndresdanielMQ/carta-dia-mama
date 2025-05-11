@@ -6,19 +6,21 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-size: 18px; /* Aumenta el tamaño base de la fuente */
 }
 
 .container {
   position: relative;
+  transform: scale(1.2); /* Aumenta el tamaño general de todo */
 }
 
 .envelope {
   position: relative;
-  width: 300px;
-  height: 400px;
+  width: 350px;
+  height: 460px;
   background-color: #f47c9b;
   border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Agrega sombra para mayor énfasis */
   overflow: hidden;
   cursor: pointer;
 }
