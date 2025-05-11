@@ -146,7 +146,7 @@ body {
   text-align: center;
   font-size: 24px;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #F7F7F7;
   opacity: 0;
   transition: opacity 1s ease;
   z-index: 10;
